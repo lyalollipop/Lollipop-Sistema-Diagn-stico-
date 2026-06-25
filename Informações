@@ -1,0 +1,21 @@
+# Lollipop Monitor de Sistema & Diagnóstico Avançado 🖥️
+
+Este é um aplicativo desktop moderno desenvolvido em **Python** utilizando a biblioteca **CustomTkinter**. Ele foi projetado para coletar dados detalhados de hardware diretamente do sistema operacional Windows e fornecer ferramentas nativas e seguras para o diagnóstico, manutenção e checagem de saúde dos principais componentes do computador.
+
+Com uma interface limpa, intuitiva e totalmente integrada ao modo escuro/claro do sistema, o software elimina a necessidade de comandos complexos no terminal para tarefas básicas de manutenção preventiva.
+
+---
+
+## 🚀 Principais Recursos
+
+### 🧠 Análise de Hardware Detalhada
+* **Processador (CPU):** Identificação exata do modelo, velocidade de clock em tempo real e monitoramento de status operacional.
+* **Memória RAM:** Mapeamento dinâmico de slots ocupados, identificação de capacidades individuais, frequências de operação (MHz) e o tipo de tecnologia (DDR4, DDR5, etc.).
+* **Dispositivos de Armazenamento:** Leitura precisa de marcas, modelos e tipos de barramento (como SSDs NVMe e SATA).
+* **Placa de Vídeo (GPU):** Identificação do modelo, cálculo da memória VRAM dedicada instalada e detecção automática do fabricante do chip gráfico.
+
+### 🛠️ Módulos de Diagnóstico Avançado
+* **Verificação Seletiva de Armazenamento:** Uma interface dedicada que permite ao usuário selecionar uma unidade de disco específica (C:, D:, etc.) para analisar a integridade do sistema de arquivos e corrigir setores ou dados corrompidos usando rotinas avançadas estruturadas sobre o `chkdsk`.
+* **Análise de Horas de Uso (S.M.A.R.T.):** Integração com contadores de confiabilidade para extrair o tempo de vida útil e horas totais que os dispositivos de armazenamento já estiveram ligados.
+* **Validação Inteligente de Drivers de Vídeo:** Lógica adaptiva multimarcas que reconhece se a placa de vídeo é **NVIDIA**, **AMD** ou **Intel**, aplicando critérios específicos de cada ecossistema para checar a estabilidade da versão instalada.
+* **Teste de Memória RAM Nativo:** Atalho automatizado para agendamento do diagnóstico profundo de memória do Windows para a próxima inicialização do sistema.
